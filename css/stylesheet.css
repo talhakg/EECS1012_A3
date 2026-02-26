@@ -1,0 +1,43 @@
+/* STEP 3: Set universal rule */
+* {
+    font-family: sans-serif, Arial;
+    background-color: #0077ff;
+    color: #570000;
+}
+
+/* STEP 4: Change the heading colour */
+h1, h2, h3, h4, h5, h6 {
+    color: #fcba03;
+}
+
+/* STEP 5: Align heading 1 and 2 to the center */
+h1, h2 {
+    text-align: center;
+}
+
+/* STEP 6: Style the elements where the ID is top */
+#top {
+    color: orange;
+    background-color: rgb(41, 41, 41);
+    font-size: 300%;
+}
+
+/* STEP 7: Ordered list in italic */
+ol li {
+    font-style: italic;
+}
+
+/* STEP 8: Image hover border */
+img:hover {
+    border: 5px solid blue;
+}
+
+/* STEP 9: Table borders */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* STEP 10: Table cell spacing */
+table {
+    border-spacing: 4px;
+}
